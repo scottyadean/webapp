@@ -1,21 +1,22 @@
-﻿Hello World, In this simple example, I will show you have to make a simple python web-app using flask.
+﻿Hello World, In this simple example,
+I will show you how to make a python web-app using flask.
 
-1) install git, and pull the example file
+1) Install git and pull the project
   - Linux $ sudo apt-get install git
   - Windows: go to > https://git-for-windows.github.io/ and download the exe. 
   - If you want to skip set up, clone the sample project from the link below:
   $ git clone https://github.com/scottyadean/webapp.git
   
-2) install pip
+2) Install pip (if not installed)
   - Linux $ pip install -U pip setuptools
   - Windows $ python -m pip install -U pip setuptools
   - You can also download this file > https://bootstrap.pypa.io/get-pip.py and then run: python get-pip.py
 
-3) install flask
+3) Install flask
  - Linux $ pip install flask
  - Windows $ pip install flask
  
- 4) Create the project structure
+4) Create the project structure
   - The base directory layout for your new app should look like this:
   webapp
   ├── app.py
@@ -23,9 +24,9 @@
   └── templates
       └── index.html
   
- 5) Create the web server
+5) Create the web server
  Open app.py and paste this code into it:
-######################################
+##############Code########################
 
 from flask import Flask
 from flask import render_template, request
@@ -39,7 +40,7 @@ if __name__ == '__main__':
   app.debug = True
   app.run(port=4996)
 
-##################################### 
+##############Code########################
   
 6) Run the App
  - open the console and cd to your project dir. run this command: python app.py

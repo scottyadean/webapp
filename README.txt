@@ -3,7 +3,9 @@
 1) install git, and pull the example file
   - Linux $ sudo apt-get install git
   - Windows: go to > https://git-for-windows.github.io/ and download the exe. 
-
+  - If you want to skip set up, clone the sample project from the link below:
+  $ git clone https://github.com/scottyadean/webapp.git
+  
 2) install pip
   - Linux $ pip install -U pip setuptools
   - Windows $ python -m pip install -U pip setuptools

@@ -48,7 +48,7 @@ if __name__ == '__main__':
     * Debugger is active!
     * Debugger PIN: 183-840-031
     * Running on http://127.0.0.1:4996/ (Press CTRL+C to quit)
- - Open a webbrowser and got to the address listed above.
+ - Open a web browser and go to the address listed above.
 
 7) Add a html template to your view.
  - open up the file: webapp/templates/index.html
